@@ -39,5 +39,3 @@ class Client(object):
         else:
             self.ws.write_message("keep alive")
 
-if __name__ == "__main__":
-    client = Client("ws://localhost:3000", 5)
